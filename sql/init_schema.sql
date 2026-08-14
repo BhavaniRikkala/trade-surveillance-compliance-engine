@@ -1,3 +1,4 @@
+-- 1. Inbound Order Intent Table
 CREATE TABLE IF NOT EXISTS orders (
     order_id VARCHAR(50) PRIMARY KEY,
     account_id VARCHAR(20) NOT NULL,
